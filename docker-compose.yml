@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: inshort-oz-news-ft
+    ports:
+      - "3000:80"
